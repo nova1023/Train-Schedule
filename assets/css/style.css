@@ -1,0 +1,32 @@
+strong {
+	font-size: 20px;
+}
+
+.glyphicon {
+	font-size: 20px;
+}
+
+#firstParameter {
+	margin-top: 15px;
+}
+
+.form-group {
+	padding: 0px 10px 0px 10px;
+}
+
+.glyphicon.glyphicon-search {
+	font-size: 15px;
+}
+
+.btn-primary {
+	margin-left: 10px;
+}
+
+#jumbotron {
+	font-size: 50px;
+	/*background-color: #989898;*/
+}
+
+/*.col-xs-12 {
+	background-color: #c3c3c3;
+}*/

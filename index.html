@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Train Schedule</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+</head>
+
+<body>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1 class="jumbotron text-center" id="jumbotron">
+        Spirited Away Express
+      </h1>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default">
+          <div class="panel-heading" class="panelHeading"><span class="glyphicon glyphicon-globe">&nbsp</span><strong>Current Train Schedule</strong>
+          </div>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Train Name</th>
+                  <th>Destination</th>
+                  <th>Frequency (min)</th>
+                  <th>Next Arrival</th>
+                  <th>Minutes Away</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="panel panel-default">
+          <div class="panel-heading" class="panelHeading"><span class="glyphicon glyphicon-transfer">&nbsp</span><strong>Add Train</strong>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="trainName" id="firstParameter">Train Name</label>
+              <input type="text" class="form-control" id="trainName" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="destination">Destination</label>
+              <input type="text" class="form-control" id="destination" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="firstTrainTime">First Train Time (HH:mm - military time)</label>
+              <input type="time" class="form-control" id="firstTrainTime" placeholder="">
+            </div>
+            <div class="form-group">
+              <label for="frequency">Frequency (min)</label>
+              <input type="integer" class="form-control" id="frequency" placeholder="">
+            </div>
+            <button class="btn btn-primary" id="submit"><span class="glyphicon glyphicon-search">&nbsp</span>Submit
+            </button>
+          </form> 
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+  
+  <script type = 'text/javascript' src = 'assets/javascript/trainschedule.js'></script>
+</body>
+
+</html>
