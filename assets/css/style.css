@@ -24,9 +24,6 @@ strong {
 
 #jumbotron {
 	font-size: 50px;
-	/*background-color: #989898;*/
+	font-weight: bold;
 }
 
-/*.col-xs-12 {
-	background-color: #c3c3c3;
-}*/
